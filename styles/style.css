@@ -1,6 +1,8 @@
 /* common properties or utilities */
 body {
   margin: 0;
+  
+  font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -11,11 +13,12 @@ body {
   background: rgba(255, 144, 14, 0.1);
 
 }
-.header-container{
+
+.header-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
- margin-left: 180px;
+  margin-left: 180px;
   grid-column-gap: 500px;
 }
 
@@ -172,14 +175,15 @@ h4 {
   height: 900px;
   margin-bottom: 100px;
 }
-.relative-button{
+
+.relative-button {
   position: absolute;
   border: none;
   background: #FF900E;
   border-radius: 8px;
   width: 250px;
   height: 150px;
-  left: 49%; 
+  left: 49%;
   bottom: -325%;
   color: whitesmoke;
   font-size: 30px;
@@ -214,10 +218,11 @@ h4 {
   margin-right: 200px;
 
 }
-.facts-container:hover{
+
+.facts-container:hover {
   cursor: pointer;
   box-shadow: 10px 5px 10px grey;
- transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .facts-icons {
@@ -275,89 +280,100 @@ h4 {
 }
 
 /* responsive related activities */
-@media  only screen and (max-width: 576px) {
-  .header-container{
+@media only screen and (max-width: 576px) {
+  .header-container {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     text-align: center;
     margin-right: 100px;
   }
-  .header-nav{
+
+  .header-nav {
     display: none;
   }
-  .architects-header{
+
+  .architects-header {
     font-size: 30px;
   }
-  .architects-description{
+
+  .architects-description {
     width: 400px;
   }
-  .banner-image img{
+
+  .banner-image img {
     width: 100%;
 
   }
-  .image-feature{
+
+  .image-feature {
     flex-direction: column-reverse;
-   
+
   }
-  .image-div{
+
+  .image-div {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
     gap: 0;
     margin-left: 60px;
   }
-   .feature-title, h2{
+
+  .feature-title,
+  h2 {
     text-align: center;
-   }
-  .feature-description p{
+  }
+
+  .feature-description p {
     width: 100%;
     margin-left: 70px;
-  
+
   }
-  .feature-button{
+
+  .feature-button {
     text-align: center;
   }
-  .products-features{
+
+  .products-features {
     flex-direction: column;
   }
+
   .products-description {
     width: 360px;
     text-align: center;
     margin-left: 100px;
-   
+
   }
-  .product h4{
+
+  .product h4 {
     text-align: center;
   }
-  .facts-container{
-  
+
+  .facts-container {
+
     grid-template-columns: repeat(1, 1fr);
     margin: 10px 0;
   }
-  .facts-title,  .facts-description{
+
+  .facts-title,
+  .facts-description {
     margin-left: 60px;
   }
-  .sponsor-info{
+
+  .sponsor-info {
     margin-top: 20px;
   }
-  .sponsor-info p{
+
+  .sponsor-info p {
     display: none;
   }
-  .sponsor-container{
+
+  .sponsor-container {
     grid-template-columns: repeat(1, 1fr);
-   justify-content: center;
+    justify-content: center;
   }
-  .footer-section{
+
+  .footer-section {
     margin-left: 70px;
   }
-  
-
-   }
 
 
-
-
-
-
-
- 
-  
+}
