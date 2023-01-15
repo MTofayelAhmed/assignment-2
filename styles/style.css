@@ -1,0 +1,260 @@
+/* common properties or utilities */
+body {
+  margin: 0;
+}
+
+
+/*.....................
+ header section related style
+ ............................ */
+.container {
+  background: rgba(255, 144, 14, 0.1);
+
+}
+
+
+.header-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 673px;
+
+
+}
+
+.company-name {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.header-nav {
+  display: flex;
+
+}
+
+nav a {
+  margin-right: 35px;
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+/* ........................
+second part header styles
+........................... */
+
+
+.architects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.architects-info {
+  width: 862px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.architects-header {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.architects-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 32px;
+
+}
+
+.header-button button,
+.feature-button button {
+  width: 180px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background: rgba(255, 144, 14);
+  text-align: center;
+  border: none;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 70px;
+}
+
+
+/* third-section related styles */
+.image-feature {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+}
+
+.image-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.feature-div {
+  width: 537px;
+  height: 312;
+}
+
+.feature-title,
+h2 {
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 32px;
+}
+
+#grey-color {
+  color: #727272;
+}
+
+.feature-description p {
+  color: #727272;
+  margin-bottom: 32px;
+}
+
+/* products and features related styles */
+
+.products-features {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+}
+
+.products {
+  width: 570px;
+  height: 1000px;
+
+}
+
+.products-title,
+h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+
+.products-description,
+p {
+  color: #727272;
+  margin-top: 10px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.features-image img {
+  width: 800 px;
+  height: 900px;
+  margin-bottom: 100px;
+}
+
+/*
+............
+ facts section related styles 
+ ..................*/
+.facts-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-left: 170px;
+  margin-bottom: 24px;
+}
+
+.facts-description {
+  color: #727272;
+  margin-left: 170px;
+  margin-bottom: 100px;
+}
+
+
+.facts-container {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 100px;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+
+
+
+
+}
+
+.facts-icons {
+
+  border: 2px solid #FF900E;
+  text-align: center;
+  padding-top: 30px;
+
+
+}
+
+.facts-icons,
+.numbers {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.facts-icon,
+.category {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* sponsor related styles */
+
+.sponsor-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sponsor-info h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.sponsor-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 50px 150px;
+}
+
+/* footer section styles
+ */
+.footer-section {
+  background: #FFF4E7;
+  border-radius: 8px;
+  width: 60%;
+  height: 80px;
+  padding: 10px;
+  margin-left: 300px;
+  text-align: center;
+}
