@@ -167,9 +167,21 @@ h4 {
 }
 
 .features-image img {
+  position: relative;
   width: 800 px;
   height: 900px;
   margin-bottom: 100px;
+}
+.relative-button{
+  position: absolute;
+  border: none;
+  background: #FF900E;
+  border-radius: 8px;
+  width: 250px;
+  height: 150px;
+  left: 49%; 
+  bottom: -325%;
+
 }
 
 /*
@@ -201,6 +213,8 @@ h4 {
 
 }
 .facts-container:hover{
+  cursor: pointer;
+  box-shadow: 10px 5px 10px grey;
  transform: scale(1.2);
 }
 
