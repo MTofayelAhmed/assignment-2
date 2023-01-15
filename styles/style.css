@@ -374,6 +374,9 @@ h4 {
   .footer-section {
     margin-left: 70px;
   }
+  .relative-button{
+    display: none;
+  }
 
 
 }
