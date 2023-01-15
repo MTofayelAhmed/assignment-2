@@ -11,17 +11,15 @@ body {
   background: rgba(255, 144, 14, 0.1);
 
 }
-
-
-.header-container {
-
-  display: flex;
-  justify-content: center;
+.header-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 673px;
-
-
+ margin-left: 180px;
+  grid-column-gap: 500px;
 }
+
+
 
 .company-name {
   font-weight: 700;
@@ -258,3 +256,91 @@ h4 {
   margin-left: 300px;
   text-align: center;
 }
+
+/* responsive related activities */
+@media  only screen and (max-width: 576px) {
+  .header-container{
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    text-align: center;
+    margin-right: 100px;
+  }
+  .header-nav{
+    display: none;
+  }
+  .architects-header{
+    font-size: 30px;
+  }
+  .architects-description{
+    width: 400px;
+  }
+  .banner-image img{
+    width: 100%;
+
+  }
+  .image-feature{
+    flex-direction: column;
+   
+  }
+  .image-div{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    gap: 0;
+    margin-left: 60px;
+  }
+   .feature-title, h2{
+    text-align: center;
+   }
+  .feature-description p{
+    width: 100%;
+    margin-left: 70px;
+  
+  }
+  .feature-button{
+    text-align: center;
+  }
+  .products-features{
+    flex-direction: column;
+  }
+  .products-description {
+    width: 360px;
+    text-align: center;
+    margin-left: 100px;
+   
+  }
+  .product h4{
+    text-align: center;
+  }
+  .facts-container{
+  
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 0;
+  }
+  .facts-title,  .facts-description{
+    margin-left: 60px;
+  }
+  .sponsor-info{
+    margin-top: 20px;
+  }
+  .sponsor-info p{
+    display: none;
+  }
+  .sponsor-container{
+    grid-template-columns: repeat(1, 1fr);
+   justify-content: center;
+  }
+  .footer-section{
+    margin-left: 70px;
+  }
+  
+
+   }
+
+
+
+
+
+
+
+ 
+  
