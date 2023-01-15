@@ -132,6 +132,7 @@ h2 {
 
 /* products and features related styles */
 
+
 .products-features {
   display: flex;
   margin-top: 40px;
@@ -198,9 +199,9 @@ h4 {
   margin-left: 200px;
   margin-right: 200px;
 
-
-
-
+}
+.facts-container:hover{
+ transform: scale(1.2);
 }
 
 .facts-icons {
@@ -279,7 +280,7 @@ h4 {
 
   }
   .image-feature{
-    flex-direction: column;
+    flex-direction: column-reverse;
    
   }
   .image-div{
