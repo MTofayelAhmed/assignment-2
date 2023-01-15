@@ -18,8 +18,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  margin-left: 180px;
-  grid-column-gap: 500px;
+  margin-left: 160px;
+  grid-column-gap: 450px;
 }
 
 
